@@ -6,3 +6,11 @@
 - 이때 가장 마지막에 연결한 Node를 topNode로 지정하여 다룬다.
 - push() => topNode의 next를 삽입하는 Node로 연결하고, 삽입된 Node를 topNode로 재지정하여 연결한다.
 - pop() => topNode를 반환하며 topNode가 가리키던 Node로 topNode를 재지정하여 연결한다.
+
+## 구현된 기능
+- 스택 생성
+- 데이터 삽입
+- 데이터 제거 및 반환
+- 최상단 확인
+- 비어 있음 확인
+- 메모리 해제
