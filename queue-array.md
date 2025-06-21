@@ -16,7 +16,7 @@
 - 메모리 해제
 
 queue_array.h
-```
+```c
 #ifndef QUEUE_ARRAY_H
 #define QUEUE_ARRAY_H
 
@@ -41,7 +41,7 @@ void freeQueue(queue* q);				// 동적 할당 받은 큐 메모리 해제
 ```
 
 queue_array.c
-```
+```c
 #include<stdio.h>
 #include<stdlib.h>
 #include "queue_array.h"
