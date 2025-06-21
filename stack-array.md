@@ -14,7 +14,7 @@
 - 메모리 해제
 
 stack_array.h
-```
+```c
 #ifndef STACK_ARRAY_H
 #define STACK_ARRAY_H
 
@@ -39,7 +39,7 @@ void freeStack(stack* s);				// 메모리 해제
 ```
 
 stack_array.c
-```
+```c
 #include "stack_array.h"
 #include<stdio.h>
 #include<stdlib.h>
@@ -99,7 +99,7 @@ void freeStack(stack* s) {
 ```
 
 main.c
-```
+```c
 #include "stack_array.h"
 #include<stdio.h>
 
