@@ -13,7 +13,8 @@
 - 빈 배열/가득 찬 배열 확인
 - 메모리 해제
 
-
+stack_array.h
+```
 #ifndef STACK_ARRAY_H
 #define STACK_ARRAY_H
 
@@ -35,8 +36,10 @@ bool isFull(stack* s);					// 가득 찬 스택인지 확인
 void freeStack(stack* s);				// 메모리 해제
 
 #endif
+```
 
-
+stack_array.c
+```
 #include "stack_array.h"
 #include<stdio.h>
 #include<stdlib.h>
@@ -93,8 +96,10 @@ void freeStack(stack* s) {
 	free(s->arr);								// 동적 할당 받은 공간 반환
 	s->arr = NULL;
 }
+```
 
-
+main.c
+```
 #include "stack_array.h"
 #include<stdio.h>
 
