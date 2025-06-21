@@ -10,7 +10,7 @@ typedef struct {						// 큐에 사용할 변수들을 모아놓은 구조체 �
 	int head, tail;						// 원형 큐를 구성하기 위한 가장 앞 인덱스 head, 가장 뒷 인덱스 tail 변수
 }queue;
 
-void generateQueue(queue* q);			// 큐 생성
+void generateQueue(queue* q, int size);			// 큐 생성
 void enqueue(queue* q, int n);			// 데이터 삽입
 int dequeue(queue* q);					// 데이터 제거
 bool isEmpty(queue* q);					// 빈 큐인지 확인
