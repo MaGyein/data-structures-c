@@ -15,7 +15,8 @@
 - 빈 배열/가득 찬 배열 확인
 - 메모리 해제
 
-
+queue_array.h
+```
 #ifndef QUEUE_ARRAY_H
 #define QUEUE_ARRAY_H
 
@@ -37,9 +38,10 @@ void showCapacity(queue* q);			// 현재 큐의 용량 확인
 void freeQueue(queue* q);				// 동적 할당 받은 큐 메모리 해제
 
 #endif
+```
 
-
-
+queue_array.c
+```
 #include<stdio.h>
 #include<stdlib.h>
 #include "queue_array.h"
